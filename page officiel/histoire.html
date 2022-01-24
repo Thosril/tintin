@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <html>
+  
+  <meta charset="uft-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css.css">
+  <body>
+        
+
+    <div id="navbar">
+      <a href="acceuil.html">Acceuil</a> 
+      <a class="active" href="histoire theme sombre.html">Histoire</a> 
+      <a href="personnages.html">Personnages</a> 
+      <a href="createur.html">Créateur</a>
+    </div>
+  
+    <div class="menu-indicator">
+  <div class="indicator active"></div>
+  <div class="indicator "></div>
+  <div class="indicator "></div>
+  <div class="indicator "></div>
+  <!--<div class="indicator"></div>-->
+  <div class="indicator "></div>
+  </div>
+  
+  <ul class="structure"><em><b>Sommaire</b></em>
+    <li><a href="#histoire de Tintin">histoire</a></li>
+    <li><a href="#houppette">La houppette</a></li>
+    <li><a href="#saviez-vous">À savoir !</a></li>
+  </ul>
+ 
+    <div class="intro">
+  <h1 id="histoire de Tintin">
+L'histoire de la BD Tintin  </h1>
+</div>
+
+<div class="texte">
+<p><i>Tintin est une BD crée par le Belge Goerge Remi plus connue sous le nom de Hergé qui raconte l’histoire d’un  jeune reporter, toujours accompagné dans ses voyages par son chien  Milou. Il est rejoint dans ses aventures par le capitaine Haddock à partir de l'album Le Crabe aux pinces d'or, puis par le Professeur Tournesol à partir de l'album Le Trésor de Rackham le Rouge.</i></p>
+
+
+<p>L'origine du personnage de Tintin peut avoir plusieurs sources. Ainsi, le dessinateur Benjamin Rabier, collaborateur du journal Le Rire, invente le personnage de Tintin-Lutin qu'il publie à partir de 1897. Rabier y met notamment en images un voyage de Tintin-Lutin à moto jusqu'à Moscou. En outre, la vie de Palle Huld, globe-trotter danois à la chevelure rousse, a pu inspirer Hergé. En 1928, âgé de quinze ans, ce futur acteur réalise seul un tour du monde en 44 jours, en culotte de golf comme Tintin, payé par le quotidien Politiken à la suite d'un concours. Les exploits du reporter Robert Sexé ont également pu inspirer Hergé . Un ouvrage apocryphe de Degrelle, Tintin mon copain, développe cette affirmation en 2000, affirmant que la coiffure, les culottes de golf et les premiers voyages du reporter auraient été inspirés à Hergé par le personnage de Degrelle. Cela est toutefois contesté par Paul Jamin notamment, ami commun d'Hergé et de Degrelle.
+</p>
+
+</div>
+
+<div class="texte2">
+<h3 id="houppette">La houppette légendaire de Tintin n’a pas toujours existé
+</h3>
+
+<p>Dans Tintin au pays des Soviets, notre héros a ses cheveux coiffés vers l’avant durant huit planches. À la dernière case de cette huitième page, Tintin démarre en trombe dans une voiture décapotable. Sa houppette se redresse et ne retombera plus jamais.
+</p>
+
+<img src="tintin planche.jpeg" class="image" width="1000">
+</div>
+    <div class="saviez-vous" id="saviez-vous">
+
+<ul class="ul" href="saviez-vous"> <h2>Le saviez-vous ? </h2>
+  <li>
+    Tintin est né le 10 janvier 1929 dans l'hebdomadaire belge « Le Petit Vingtième ».</li>
+  <li>Milou est un Fox-terrier à poil dur d'une blancheur atypique.</li>
+  <li>Les Aventures de Tintin ont été vendues à plus de 270 millions d'exemplaires (chiffres de 2019) à travers le monde et ont été traduites dans plus de 110 langues et dialectes.</li>
+  <li>Le véritable nom du créateur de Tintin est Georges Remi. De ses initiales, RG, il créa son nom d'artiste : Hergé.</li>
+  <li>Tintin a marché sur la Lune en 1953, soit 16 ans avant Neil Armstrong.</li>
+  <li> Dupond et Dupont ne sont pas frères et encore moins jumeaux. On les différencie à la forme de leur moustache.</li>
+  <li>Le capitaine Haddock apparaît pour la première fois dans la 9e aventure : Le Crabe aux pinces d'or.</li>
+
+</ul>
+</div>
+
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+  </body>
+  </html> 
+  
+  
+  
